@@ -1,0 +1,113 @@
+.con-1{
+    height: 4   em;
+    background-color: #0a1429;
+    align-items: center;
+    
+}
+.navi-1,
+.navi-2{
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+    color: whitesmoke;
+}
+.navi-1 a
+{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+/************container 2************************/
+.con-2{
+    width: 100%;
+    height: 100vh;
+    background: url('music1.jpg');
+    background-size: cover;
+    padding-top: 20%;
+    
+  
+
+}
+.title,
+.subtitle,
+.para{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 600;
+
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida
+     Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    
+    
+}
+.title{
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+/************container 3 ***********************/
+.con-3{
+    width: 100%;
+    height: 80vh;
+    background-color:  #0a1429;
+    padding-top: 7%;
+}
+.welcome,
+.ads,
+.info{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.welcome{
+    color: gold;
+    font-size: 4em;
+    padding-bottom: 2%;
+}
+/***********container 4 *************************/
+.con-4{
+    width: 100%;
+    height: 100vh;
+    background-color:  #0a1429;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.start{
+    padding: 15px;
+    }
+.add-para{
+    color:gold;
+    text-align: center;
+}
+.music-add{
+    width: auto;
+    height: auto;
+    background-size: auto;
+}
+.add-pic{
+    border:#0a1429;
+}
+/***********footer************************/
+#social-links {
+    display: inline-block;
+    font-size: 25px;  
+}
+
+.facebook{
+    color: blue;
+
+}
+.instagram{
+    color: #e6005c;
+
+}
+.twitter{
+    color:  #00bfff;
+}
+.plus{
+    color: #ff0000;
+}
